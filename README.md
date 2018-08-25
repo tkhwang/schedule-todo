@@ -7,4 +7,5 @@ for practing react-native and app development.
 
 - Completed to-do will be synced (via Google calender using Google firebase.)
 - Github contribution style graph.
+- Write to-do with date and time.
 - ...
