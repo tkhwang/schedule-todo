@@ -22,7 +22,12 @@ export default class App extends React.Component {
         <StatusBar barStyle="light-content" />
         <Text style={styles.title}>Schedule To Do</Text>
         <View style={styles.card}>
-          <TextInput style={styles.input} placeholder={"New To Do"} />
+          <TextInput
+            style={styles.input}
+            placeholder={"New To Do"}
+            value={newToDo}
+            onChangeText={this._controlNewToDo}
+          />
         </View>
       </View>
     );
